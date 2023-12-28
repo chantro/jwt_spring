@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
 @Controller
 @RequiredArgsConstructor
 @RequestMapping("/jwt-login/admin")
-public class routeController {
+public class RouteController {
     @GetMapping("/batch")
     public String showBatchForm(Model model){
         model.addAttribute("loginType", "jwt-login");
